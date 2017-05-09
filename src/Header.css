@@ -1,0 +1,14 @@
+.header-container {
+	background-color: saddlebrown;
+	flex: 1;
+	display: flex;
+	align-items: center;
+}
+.logo-container {
+	flex: 1;
+}
+.menu-items-container {
+	flex: 5;
+	display: flex;
+	justify-content: space-around;
+}
