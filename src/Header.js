@@ -8,13 +8,13 @@ import './Header.css';
 
 const Header = () => (
 	<div className="header-container">
-		<div className="logo-container">
-			<Link to="/">Hamilton Home</Link>
-		</div>
+		<h2><Link to="/" className="link">Hamilton Home</Link></h2>
 		<div className="menu-items-container">
-			<Link to="/">Home</Link>
-			<Link to="/about">About</Link>
-			<Link to="/contacts">Contacts</Link>
+			<h3><Link to="/" className="link">Home</Link></h3>
+			<h3><Link to="/about" className="link">About</Link></h3>
+			<h3><Link to="/contacts" className="link">Contacts</Link></h3>
+			<h3><Link to="/about" className="link">About</Link></h3>
+			<h3><Link to="/contacts" className="link">Contacts</Link></h3>
 		</div>
 	</div>
 );

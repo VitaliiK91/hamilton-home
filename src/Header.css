@@ -1,14 +1,19 @@
 .header-container {
-	background-color: saddlebrown;
-	flex: 1;
+	background-color: rgb(71, 63, 52);
 	display: flex;
+	flex: 1;
 	align-items: center;
 }
 .logo-container {
 	flex: 1;
 }
 .menu-items-container {
-	flex: 5;
+	flex: 4;
 	display: flex;
 	justify-content: space-around;
+}
+.link {
+	color: rgb(218,220,176);
+	font-family: 'PaytoneOne';
+	src: local('PaytoneOne'), url(./fonts/PaytoneOne.ttf) format('ttf');
 }

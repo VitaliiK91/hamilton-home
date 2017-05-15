@@ -1,23 +1,22 @@
-.App {
-  text-align: center;
+html, body{
+  height:100%;
 }
 
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.main-container {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 1px;
+  min-height: 1000px;
 }
 
-.App-header {
-  display: flex;  
-  height: 100px;
+.app-header-container {
 }
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.content-container {
+  flex: 1;
+  background: rgb(238,212,174);
+  color: rgb(71, 63, 52);
+	font-family: 'PaytoneOne';
+	src: local('PaytoneOne'), url(./fonts/PaytoneOne.ttf) format('ttf');
 }

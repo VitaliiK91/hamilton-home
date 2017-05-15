@@ -5,13 +5,9 @@ import {
   Link,
 } from 'react-router-dom';
 import Header from'./Header';
+import Home from './Home';
 import './App.css';
 
-const Home = () => (
-  <div>
-    <p>Home</p>
-  </div>
-);
 const About = () => (
   <div>
     <p>About</p>
@@ -25,16 +21,15 @@ const Contacts = () => (
 
 const App = () => (
   <Router>
-    <div>
-      <div className="App-header">
+    <div className="main-container">
+      <div className="app-header-container">
        <Header /> 
       </div>
-
-      <hr/>
-
-      <Route exact path="/" component={Home}/>
-      <Route path="/about" component={About}/>
-      <Route path="/contacts" component={Contacts}/>
+      <div className="content-container">
+        <Route exact path="/" component={Home}/>
+        <Route path="/about" component={About}/>
+        <Route path="/contacts" component={Contacts}/>
+      </div>
     </div>
   </Router>
 )
