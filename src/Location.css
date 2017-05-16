@@ -1,0 +1,12 @@
+.content {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+}
+.main-map-container {
+	height: 500px;
+}
+.main-text-container {
+	display: flex;
+	flex-direction: column;
+}

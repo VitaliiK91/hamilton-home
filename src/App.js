@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import Header from'./Header';
 import Home from './Home';
+import Location from './Location';
 import './App.css';
 
 const About = () => (
@@ -27,6 +28,7 @@ const App = () => (
       </div>
       <div className="content-container">
         <Route exact path="/" component={Home}/>
+        <Route path="/location" component={Location}/>
         <Route path="/about" component={About}/>
         <Route path="/contacts" component={Contacts}/>
       </div>
