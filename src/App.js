@@ -7,16 +7,12 @@ import {
 import Header from'./Header';
 import Home from './Home';
 import Location from './Location';
+import Contacts from './Contacts';
 import './App.css';
 
 const About = () => (
   <div>
     <p>About</p>
-  </div>
-);
-const Contacts = () => (
-  <div>
-    <p>Contacts</p>
   </div>
 );
 
