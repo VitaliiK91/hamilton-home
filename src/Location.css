@@ -1,10 +1,8 @@
-.content {
-	display: flex;
-	flex: 1;
-	flex-direction: column;
-}
 .main-map-container {
-	height: 500px;
+  height:50vh;
+  width: 100%;
+  min-height: 100%;
+  max-height: none;
 }
 .main-text-container {
 	display: flex;
