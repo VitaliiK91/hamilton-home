@@ -4,16 +4,32 @@ import {
 	Route,
 	Link,
 } from 'react-router-dom';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import './Header.css';
 
 const Header = () => (
-	<div className="header-container">
-		<h2><Link to="/" className="link">Hamilton Home</Link></h2>
-		<div className="menu-items-container">
-			<h3><Link to="/location" className="link">Location</Link></h3>
-			<h3><Link to="/about" className="link">About</Link></h3>
-			<h3><Link to="/contacts" className="link">Contacts</Link></h3>
-		</div>
+	<div className="Navigation__container">
+		<Navbar inverse fixedTop>
+          <Navbar.Header>
+            <Navbar.Brand>
+              <Link to="/" className="link">Hamilton Home</Link>
+            </Navbar.Brand>
+            <Navbar.Toggle />
+          </Navbar.Header>
+          <Navbar.Collapse>
+            <Nav>
+              <NavItem>
+				<Link to="/location" className="link">Location</Link>
+              </NavItem>
+              <NavItem>
+				<Link to="/about" className="link">About</Link>
+              </NavItem>
+			  <NavItem>
+				<Link to="/contacts" className="link">Contacts</Link>
+              </NavItem>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
 	</div>
 );
 

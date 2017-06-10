@@ -4,6 +4,7 @@ import {
   Route,
   Link,
 } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.css';
 import Header from'./Header';
 import Home from './Home';
 import Location from './Location';
@@ -18,11 +19,9 @@ const About = () => (
 
 const App = () => (
   <Router>
-    <div className="main-container">
-      <div className="app-header-container">
-       <Header /> 
-      </div>
-      <div className="content-container">
+    <div>
+      <Header /> 
+      <div className="content">
         <Route exact path="/" component={Home}/>
         <Route path="/location" component={Location}/>
         <Route path="/about" component={About}/>

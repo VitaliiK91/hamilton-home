@@ -1,21 +1,6 @@
 html, body {
   background: rgb(238,212,174);
 }
-.main-container {
-  display: flex;
-  flex-direction: column;
-  border-width: 1px;
-  min-height: 500px;
-}
-
-.app-header-container {
-}
-
-.content-container {
-  flex: 1;
-  display: flex;
-  padding: 20px;
-  color: rgb(71, 63, 52);
-	font-family: 'PaytoneOne';
-	src: local('PaytoneOne'), url(./fonts/PaytoneOne.ttf) format('ttf');
+.content {
+	margin-top: 100px;
 }
