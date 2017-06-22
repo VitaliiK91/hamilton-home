@@ -19,13 +19,16 @@ const Header = () => (
           <Navbar.Collapse>
             <Nav>
               <NavItem>
-				<Link to="/location" className="link">Location</Link>
+				        <Link to="/location" className="link">Location</Link>
               </NavItem>
               <NavItem>
-				<Link to="/tour" className="link">Tour</Link>
+				        <Link to="/tour" className="link">Tour</Link>
               </NavItem>
-			  <NavItem>
-				<Link to="/contacts" className="link">Contacts</Link>
+			        <NavItem>
+				        <Link to="/contacts" className="link">Contacts</Link>
+              </NavItem>
+              <NavItem>
+				        <Link to="/fees" className="link">Servies & Fees</Link>
               </NavItem>
             </Nav>
           </Navbar.Collapse>

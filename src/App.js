@@ -10,6 +10,7 @@ import Home from './Home';
 import Location from './Location';
 import Contacts from './Contacts';
 import Tour from './Tour';
+import Fees from './Fees';
 import './App.css';
 
 const App = () => (
@@ -21,6 +22,7 @@ const App = () => (
         <Route path="/location" component={Location}/>
         <Route path="/tour" component={Tour}/>
         <Route path="/contacts" component={Contacts}/>
+        <Route path="/fees" component={Fees}/>
       </div>
     </div>
   </Router>
