@@ -7,7 +7,7 @@ const Home = () => (
 		<Grid>
 			<Row>
 				<Col xs={12} md={8}>
-					<img src={mainImgSrc} alt="" />
+					<img className="main-img" src={mainImgSrc} alt="" />
 				</Col>
 				<Col xs={12} md={4}>
 					<div className="text-container">

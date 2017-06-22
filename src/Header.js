@@ -22,7 +22,7 @@ const Header = () => (
 				<Link to="/location" className="link">Location</Link>
               </NavItem>
               <NavItem>
-				<Link to="/about" className="link">About</Link>
+				<Link to="/tour" className="link">Tour</Link>
               </NavItem>
 			  <NavItem>
 				<Link to="/contacts" className="link">Contacts</Link>
