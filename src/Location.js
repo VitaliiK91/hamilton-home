@@ -9,6 +9,10 @@ const Location = () => (
 				<Col xs={12} md={12}>
 					<div className="main-map-container">
 						<GoogleMapReact
+							bootstrapURLKeys={{
+								key: 'AIzaSyAgr9_YE2cVsuXKkOh_9Ym0MXc7Yh2Uopw',
+								language: 'en',
+							}}
 							defaultCenter={{lat: 32.763875, lng: -117.136162}}
 							defaultZoom={17}
 						/>
