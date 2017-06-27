@@ -1,7 +1,13 @@
 .link {
-	color: rgb(218,220,176);
 	font-family: 'PaytoneOne';
 	src: local('PaytoneOne'), url(./fonts/PaytoneOne.ttf) format('ttf');
+}
+.navbar-brand {
+	font-size: 190%;
+}
+.menu-item {
+	font-size: 140%;
+	color: grey;
 }
 .Navigation__container {
   margin-bottom: -30px;

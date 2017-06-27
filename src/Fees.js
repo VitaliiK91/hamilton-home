@@ -13,14 +13,14 @@ const Fees = () => (
 						</ul>
     				</Panel>
 				</Col>
-				<Col xs={12} md={6}>
+				<Col xs={12} md={5}>
 					<Panel header={"Double Occupancy*"}>
 						<ul>
 							<li>$600 for 4 weeks, each person**</li>
 						</ul>
     				</Panel>
 				</Col>
-				<Col xs={12} md={12}>
+				<Col xs={12} md={6}>
 					<Panel header={"Includes"}>
 						<ul>
 							<li>Private room</li>
@@ -34,16 +34,14 @@ const Fees = () => (
 						</ul>
     				</Panel>
 				</Col>
-				<Row>
-					<Col sm={12} md={12}>
-						*  Shared room if available. Two rooms in Hamilton Home can accommodate<br/>
-						**  2 very close people (One bed - full or queen)<br/>
-						***  Deposit is required at the time of reservation, to hold the room<br/>
-						****  We accept Pay pal, cash and most personal checks<br/>
-						*****  We do not accept credit or debit cards
-					</Col>
+				<Col xs={11} md={5}>
+					*  Shared room if available. Two rooms in Hamilton Home can accommodate<br/>
+					**  2 very close people (One bed - full or queen)<br/>
+					***  Deposit is required at the time of reservation, to hold the room<br/>
+					****  We accept Pay pal, cash and most personal checks<br/>
+					*****  We do not accept credit or debit cards
+				</Col>
 				</Row>
-			</Row>
 		</Grid>
 )
 

@@ -9,14 +9,14 @@ import './Header.css';
 
 const Header = () => (
 	<div className="Navigation__container">
-		<Navbar inverse fixedTop collapseOnSelect>
+		<Navbar  fixedTop collapseOnSelect>
           <Navbar.Header>
             <Navbar.Brand>
               <Link to="/" className="link">Hamilton Home</Link>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
-          <Navbar.Collapse>
+          <Navbar.Collapse className='menu-item'>
             <Nav>
               <NavItem>
 				        <Link to="/location" className="link">Location</Link>
