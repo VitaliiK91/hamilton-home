@@ -9,7 +9,7 @@ import './Header.css';
 
 const Header = () => (
 	<div className="Navigation__container">
-		<Navbar inverse fixedTop>
+		<Navbar inverse fixedTop collapseOnSelect>
           <Navbar.Header>
             <Navbar.Brand>
               <Link to="/" className="link">Hamilton Home</Link>
