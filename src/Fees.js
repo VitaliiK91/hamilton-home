@@ -9,7 +9,6 @@ const Fees = () => (
 					<Panel header={"Single Occupancy"}>
 						<ul>
 							<li>$980 for 4 weeks. After 4 weeks rent is prorated</li>
-							<li>$350 per week, under 4 week stay</li>
 						</ul>
     				</Panel>
 				</Col>
@@ -29,7 +28,7 @@ const Fees = () => (
 							<li>Gas & Electric</li>
 							<li>TV reception (basic) & Internet</li>
 							<li>Weekly Cleaning</li>
-							<li>Most of your groceries and all paper/cleaning products</li>
+							<li>Some of your groceries and all paper/cleaning products</li>
 							<li>There is also a swimming pool, surf boards, wet suits, a bike and ping pong table available for your use</li>
 						</ul>
     				</Panel>
