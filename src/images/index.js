@@ -15,6 +15,7 @@ import bedroom_thumb from './bedroom_thumb.jpeg';
 import bedroom_thumb2 from './bedroom2_thumb.jpeg';
 import bedroom_thumb3 from './bedroom3_thumb.jpeg';
 import bedroom_thumb4 from './bedroom4_thumb.jpeg';
+import main from './main.jpg';
 
 export {
 	bedroom,
@@ -34,4 +35,5 @@ export {
 	living_room1,
 	street,
 	sunset,
+	main,
 };

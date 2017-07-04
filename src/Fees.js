@@ -1,26 +1,27 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col, Panel } from 'react-bootstrap';
 import mainImgSrc from './images/main.jpg';
+import './Fees.css';
 
 const Fees = () => (
 		<Grid>
 			<Row>
 				<Col xs={12} md={6}>
-					<Panel header={"Single Occupancy"}>
+					<Panel header={"Single Occupancy"} className="no-center">
 						<ul>
 							<li>$980 for 4 weeks. After 4 weeks rent is prorated</li>
 						</ul>
     				</Panel>
 				</Col>
 				<Col xs={12} md={5}>
-					<Panel header={"Double Occupancy*"}>
+					<Panel header={"Double Occupancy*"} className="no-center">
 						<ul>
 							<li>$600 for 4 weeks, each person**</li>
 						</ul>
     				</Panel>
 				</Col>
 				<Col xs={12} md={6}>
-					<Panel header={"Includes"}>
+					<Panel header={"Includes"} className="no-center">
 						<ul>
 							<li>Private room</li>
 							<li>Use of fully furnished living area</li>

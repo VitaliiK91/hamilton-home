@@ -4,6 +4,7 @@
 }
 .navbar-brand {
 	font-size: 190%;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .navbar {
 	background-color: #ddddaa;
@@ -12,7 +13,12 @@
 	box-shadow: 0 8px 6px -6px #999;
 }
 .navbar .navbar-brand {
-	color: white;
+	color: white!important;
+}
+.navbar-toggle  {
+  border: 0!important;
+  outline: none!important;
+  background-color: transparent!important;
 }
 .menu-item {
 	font-size: 140%;

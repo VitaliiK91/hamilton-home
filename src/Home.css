@@ -1,7 +1,8 @@
 
 .main-img {
-	max-width: 100%;
-	max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 100%;
 }
 .text-container {
 	display: flex;
@@ -9,14 +10,33 @@
 	justify-content: center;
   font-size: 120%;
 }
+.panel-default {
+  text-align: center;
+}
+.panel-heading { 
+  background-color: #ddddaa !important;
+  text-align: center;
+  color:white!important;
+  font-size: 150%;
+  font-family: 'PaytoneOne';
+  src: local('PaytoneOne'), url(./fonts/PaytoneOne.ttf) format('ttf');
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 .row {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display:         flex;
+  display: flex;
   flex-wrap: wrap;
 }
 .row > [class*='col-'] {
   display: flex;
   flex-direction: column;
+}
+.drop-shadow {
+  min-width: 100%;
+  -webkit-box-shadow: 0 8px 6px -6px #999!important;
+  -moz-box-shadow: 0 8px 6px -6px #999!important;
+  box-shadow: 0 8px 6px -6px #999!important;
+  margin-bottom: 10px;
 }
