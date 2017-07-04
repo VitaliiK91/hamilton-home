@@ -3,9 +3,17 @@
   width: 100%;
   min-height: 100%;
   max-height: none;
+  position: relative;
+  overflow: hidden;
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
 }
+
 .main-text-container {
-	display: flex;
-	flex-direction: column;
-  font-size: 120%
+  margin-top: 10px!important;
+  font-size: 130%;
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999
 }
