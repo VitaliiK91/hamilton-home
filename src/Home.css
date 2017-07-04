@@ -12,6 +12,7 @@
 }
 .panel-default {
   text-align: center;
+  font-size: 130%!important;
 }
 .panel-heading { 
   background-color: #ddddaa !important;

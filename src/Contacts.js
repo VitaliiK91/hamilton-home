@@ -5,12 +5,12 @@ import './Contacts.css';
 const Contacts = () => (
 	<Grid fluid>
 		<Row>
-			<Col xs={8} xsOffset={2} md={4} mdOffset={4} className='test'>
+			<Col xs={8} xsOffset={2} lg={6} lgOffset={3} className='test'>
 				<Panel header='Address'>
 					<p>4751 Hamilton St. San Diego, CA 92116, USA</p>
 				</Panel>
 			</Col>
-			<Col xs={8} xsOffset={2} md={4} mdOffset={4} className='test'>
+			<Col xs={8} xsOffset={2} lg={6} lgOffset={3} className='test'>
 				<Panel header='Email'>
 					<p>hamiltonhomesd@aol.com</p>
 				</Panel>
