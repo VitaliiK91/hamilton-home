@@ -125,6 +125,7 @@ const Tour = () => (
 				<Gallery
 					images={IMAGES}
 					enableImageSelection={false}
+					margin={5}
 				/>
 			</Col>
 		</Row>
