@@ -5,14 +5,14 @@ import './Contacts.css';
 const Contacts = () => (
 	<Grid fluid>
 		<Row>
-			<Col xs={8} xsOffset={2} lg={6} lgOffset={3} className='test'>
+			<Col xs={12}  md={6} mdOffset={3} className='text'>
 				<Panel header='Address'>
-					<p>4751 Hamilton St. San Diego, CA 92116, USA</p>
+					<p><adress>4751 Hamilton St. San Diego, CA 92116, USA</adress></p>
 				</Panel>
 			</Col>
-			<Col xs={8} xsOffset={2} lg={6} lgOffset={3} className='test'>
+			<Col xs={12} md={6} mdOffset={3} className='text'>
 				<Panel header='Email'>
-					<p>hamiltonhomesd@aol.com</p>
+					<a href="mailto:hamiltonhomesd@aol.co">hamiltonhomesd@aol.com</a>
 				</Panel>
 			</Col>
 			</Row>
