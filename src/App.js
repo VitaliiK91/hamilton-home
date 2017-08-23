@@ -11,7 +11,9 @@ import Location from './Location';
 import Contacts from './Contacts';
 import Tour from './Tour';
 import Fees from './Fees';
+import Guestbook from './Guestbook';
 import './App.css';
+
 
 const App = () => (
   <Router>
@@ -23,6 +25,7 @@ const App = () => (
         <Route path="/tour" component={Tour}/>
         <Route path="/contacts" component={Contacts}/>
         <Route path="/fees" component={Fees}/>
+        <Route path="/guestbook" component={Guestbook}/>
       </div>
     </div>
   </Router>
