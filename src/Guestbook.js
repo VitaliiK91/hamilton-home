@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col, Panel } from 'react-bootstrap';
+import { Grid, Row, Col, Panel, Button } from 'react-bootstrap';
 import './Guestbook.css';
 
 var Firebase = require('firebase');
@@ -19,7 +19,7 @@ class Guestbook extends Component {
 	constructor() {
 		super();
 
-		this.state = { data: {}};
+		this.state = { data: {}, isAuth: true };
 	}
 
 	componentWillMount() {
@@ -32,14 +32,23 @@ class Guestbook extends Component {
 	render() {
 		return (
 			<Grid>
+				{this.state.isAuth &&
+					<Row>
+						<Button>Add Guest +</Button>
+					</Row>
+				}
+				<br/>
 				<Row>
 				{
-					Object.values(this.state.data).map((entry) => (
+					Object.values(this.state.data)
+					.sort((i, j) => Date.parse('1/' + i.date) - Date.parse('1/' + j.date))
+					.map((entry) => (
 							<Col xs={12} sm={6} lg={3}>
-								<Panel header={entry.name}>
+								<Panel header={entry.name} className="no-center">
 									<p><b>Date:</b> {entry.date || '-'}</p><br/>
 									<p><b>Email:</b> {entry.email || '-'}</p><br/>
-									<p><b>Origin:</b> {entry.origin || '-'}</p><br/>
+									<p><b>Origin:</b> {entry.origin || '-'}</p>
+									{this.state.isAuth && (<p className="remove_btn"><Button bsStyle="danger">Delete</Button></p>) }
 								</Panel>
 							</Col>
 						)

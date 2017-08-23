@@ -14,7 +14,6 @@ import Fees from './Fees';
 import Guestbook from './Guestbook';
 import './App.css';
 
-
 const App = () => (
   <Router>
     <div>
