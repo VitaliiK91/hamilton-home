@@ -30,9 +30,9 @@ const Header = () => (
               <NavItem>
 				        <Link to="/fees" className="link">Services & Fees</Link>
               </NavItem>
-              <NavItem>
+              {/*<NavItem>
 				        <Link to="/guestbook" className="link">Guestbook</Link>
-              </NavItem>
+              </NavItem>*/}
             </Nav>
           </Navbar.Collapse>
         </Navbar>

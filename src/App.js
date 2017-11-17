@@ -24,7 +24,7 @@ const App = () => (
         <Route path="/tour" component={Tour}/>
         <Route path="/contacts" component={Contacts}/>
         <Route path="/fees" component={Fees}/>
-        <Route path="/guestbook" component={Guestbook}/>
+        {/*<Route path="/guestbook" component={Guestbook}/>*/}
       </div>
     </div>
   </Router>
