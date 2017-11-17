@@ -29,7 +29,7 @@ const Fees = () => (
 							<li>Gas & Electric</li>
 							<li>TV reception (basic) & Internet</li>
 							<li>Weekly Cleaning</li>
-							<li>Some of your groceries and all paper/cleaning products</li>
+							<li>All paper/cleaning products</li>
 							<li>There is also a swimming pool, surf boards, wet suits, a bike and ping pong table available for your use</li>
 						</ul>
     				</Panel>
